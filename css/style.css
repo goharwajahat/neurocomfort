@@ -1,62 +1,122 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background: #ffffff;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f7fbfd;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+
 header {
-    background: #0b6fa4;
+    background: #006d8f;
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 30px;
+    font-size: 34px;
+    margin-bottom: 10px;
 }
 
 header h2 {
-    margin: 10px 0;
+    font-size: 24px;
+    font-weight: normal;
 }
 
-section {
-    padding: 25px;
-    max-width: 900px;
-    margin: auto;
+.brand {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
 }
+
+
+.button {
+    display: inline-block;
+    background: white;
+    color: #006d8f;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 section h2 {
-    color: #0b6fa4;
+    color: #006d8f;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+
+.about p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+}
+
+
+.cards div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.cards h3 {
+    color: #006d8f;
+}
+
 
 ul {
-    padding-left: 25px;
+    background: white;
+    padding: 25px 45px;
+    border-radius: 10px;
 }
 
-li {
-    margin-bottom: 8px;
+
+.contact {
+    text-align: center;
 }
+
 
 footer {
-    background: #222;
+    background: #003b4d;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
+    padding: 20px;
 }
 
-@media (max-width: 600px) {
 
-    header h1 {
-        font-size: 22px;
-    }
+@media(max-width:600px){
 
-    section {
-        padding: 15px;
-    }
+header h1 {
+    font-size: 25px;
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+.container {
+    padding: 15px;
+}
 
 }
