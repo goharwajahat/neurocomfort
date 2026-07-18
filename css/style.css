@@ -59,6 +59,7 @@ nav a:hover{
 color:#19a0ff;
 }
 
+
 /* Hero */
 
 .hero{
@@ -115,6 +116,7 @@ border-radius:20px;
 box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
 
+
 /* Buttons */
 
 .buttons{
@@ -155,6 +157,7 @@ background:#444;
 background:#222;
 }
 
+
 /* General Sections */
 
 section{
@@ -175,6 +178,7 @@ margin-bottom:20px;
 }/* ===========================
    NeuroComfort - Part 2
    =========================== */
+
 
 /* Service Cards */
 
@@ -202,6 +206,7 @@ transform:translateY(-8px);
 box-shadow:0 15px 30px rgba(0,0,0,.15);
 }
 
+
 /* Clinic Locations */
 
 .location{
@@ -222,6 +227,7 @@ font-size:24px;
 margin:0;
 }
 
+
 /* Contact */
 
 #contact{
@@ -237,6 +243,7 @@ font-size:20px;
 justify-content:center;
 margin-top:25px;
 }
+
 
 /* Footer */
 
@@ -262,6 +269,28 @@ footer p{
 color:#f2f2f2;
 margin:8px 0;
 }
+
+
+/* Social Media Icons */
+
+.social-links{
+margin-top:20px;
+}
+
+.social-links a{
+display:inline-block;
+font-size:32px;
+margin:0 12px;
+color:#ffffff;
+text-decoration:none;
+transition:.3s;
+}
+
+.social-links a:hover{
+transform:translateY(-4px);
+color:#19a0ff;
+}
+
 
 /* Mobile */
 
@@ -318,6 +347,7 @@ font-size:30px;
 
 }
 
+
 /* Small phones */
 
 @media (max-width:600px){
@@ -353,6 +383,7 @@ height:65px;
 }
 
 }
+
 
 /* Smooth fade */
 
